@@ -1,0 +1,3 @@
+[submodule "Assets/Logic/BaseGameLogic"]
+	path = Assets/Logic/BaseGameLogic
+	url = https://github.com/ukidabek/BaseGameLogic.git
