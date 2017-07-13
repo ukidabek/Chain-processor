@@ -23,11 +23,5 @@ public class ChainProcessorTester : MonoBehaviour {
 		}
 
 		processor.Process ();
-
-		for (int i = 0; i < processor.Outputs.Count; i++) 
-		{
-			Debug.Log ( processor.Outputs [i].IOName + ": "+
-				(processor.Outputs [i].OutData as MathChainData).Data.ToString ());
-		}	
 	}
 }
